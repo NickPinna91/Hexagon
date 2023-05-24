@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5HPnk3BvFq/tcyfMzDMFtpxa+ZqqPuDYp3i23fJh0Fe0PmvUVGWD/X01ALhU+Z89YtyOOGZDSeL9DRB+TmM/rw==",
+  "dgSpecHash": "USLltcgDvnlPTpzZBM6V4kcf/R2UrHSJlpPl7QHO1SX5R+H93e+AxuE3yNuwf7bRLXWE3j2jqFlNu2mq9xddEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nicholas\\source\\repos\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\Utente\\Documents\\GitHub\\Hexagon\\Hexagon\\External Console HID CLIENT\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nicholas\\.nuget\\packages\\hidlibrary\\3.3.40\\hidlibrary.3.3.40.nupkg.sha512"
+    "C:\\Users\\Utente\\.nuget\\packages\\hidlibrary\\3.3.40\\hidlibrary.3.3.40.nupkg.sha512"
   ],
   "logs": []
 }

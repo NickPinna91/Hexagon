@@ -15,3 +15,20 @@ C:\Users\Nicholas\source\repos\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.d
 C:\Users\Nicholas\source\repos\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
 C:\Users\Nicholas\source\repos\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Nicholas\source\repos\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\bin\Debug\net6.0\HidLibrary.dll
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Utente\Documents\GitHub\Hexagon\Hexagon\External Console HID CLIENT\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll

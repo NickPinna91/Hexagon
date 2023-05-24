@@ -29,9 +29,14 @@ namespace Hexagon
         private int ProductID = 22353;
         */
         //ESP32 PID VID
-        private int VendorID = 0x303a;
-        private int ProductID = 0x1001;
-        //private int ReportLength = 64;
+        //private int VendorID = 0x303a;
+        //private int ProductID = 0x1001;
+        //ARDUINO PID VID
+        //deviceList = HidDevices.Enumerate(0x2341, 0x8036).ToArray();
+        private int VendorID = 0x2341;
+        private int ProductID = 0x8036;
+
+        private int ReportLength = 64;
         private HidDevice device;
 
         private Boolean open;
@@ -135,10 +140,10 @@ namespace Hexagon
 
             device = HidDevices.Enumerate(VendorID, ProductID).FirstOrDefault();
 
-
+            /*
             for (int i = 0; i< dev.Length; i++) {
                 Console.WriteLine(dev[i].ToString());
-            }
+            }*/
 
 
             if (device == null)

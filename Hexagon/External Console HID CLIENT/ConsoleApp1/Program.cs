@@ -7,13 +7,14 @@ namespace ConsoleApp1
 {
     internal class Program
     {
+        //HID device(vID= 0x2341, pID= 0x8036, v= 0x0100); Arduino Leonardo
         //HID device(vID= 0x303a, pID= 0x1001, v= 0x0100); Espressif Systems; TinyUSB HID, Path: \\?\hid#vid_303a&pid_1001&mi_02&col06#8&36a00c5d&0&0005#{4d1e55b2-f16f-11cf-88cb-001111000030}
-       
+
         static void Main(string[] args)
         {
             byte[] OutData;
             HidDevice[] deviceList;
-            deviceList = HidDevices.Enumerate(0x303a, 0x1001).ToArray();
+            deviceList = HidDevices.Enumerate(0x2341, 0x8036).ToArray();
 
             for (int i= 0; i<deviceList.Length;i++) {
                 Console.WriteLine("//------------DEVICE NUM "+i+" ------------//");
@@ -45,7 +46,7 @@ namespace ConsoleApp1
             Console.WriteLine(text);
             */
             HidReport inReport, outReport;
-            int offset = 0;
+            //int offset = 0;
             //int remainCount = 
             Console.WriteLine("Write Handle "+deviceList[0].WriteHandle);
             Console.WriteLine("Read Handle " + deviceList[0].ReadHandle);
@@ -62,7 +63,7 @@ namespace ConsoleApp1
             report.ReportId = 6;
             
             //deviceList[5].MonitorDeviceEvents = true;
-            int timeout = 1;
+            int timeout = 0;
             bool w;
             
             if (deviceList[0].IsConnected)
@@ -73,7 +74,7 @@ namespace ConsoleApp1
                     Console.WriteLine("WRITE OUT " + w + " timeout " + timeout);
                     //timeout++;
 
-                }while (w);
+                }while (true);
             }
 
 
