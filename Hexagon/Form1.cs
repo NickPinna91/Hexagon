@@ -473,8 +473,8 @@ namespace Hexagon
         {
             try
             {
-
-                byte[] data = new byte[64];
+                //NOTE ADDED 2 Bytes for padding
+                byte[] data = new byte[66];
                 /*
                 if (changeData == true)
                 {
@@ -492,19 +492,20 @@ namespace Hexagon
                     changeData = true;
                 }
                 */
-                for (int i = 0; i < 64 ; i++)
+                data[1] = 0;
+                for (int i = 2; i < 66 ; i++)
                 {
                     data[i] = 0xFF;
+                    //Thread.Sleep(1000); //ms
                 }
-                /*
-                Console.WriteLine("-------------- Dati Buffer --------------");
-                for (int i = 0; i < Marshal.SizeOf(dataACBuf) - 2; i++)
+                device.WriteReport(new HidReport(data.Length, new HidDeviceData(data, HidDeviceData.ReadStatus.Success)));
+                data[1] = 1;
+                for (int i = 22; i < 66; i++)
                 {
-                    Console.WriteLine(data[i]);
+                    data[i] = 0xFF;
+                    //Thread.Sleep(1000); //ms
                 }
-                */
-                //HidDeviceData dt = new HidDeviceData(data, HidDeviceData.ReadStatus.Success);
-                //device.WriteFeatureData(data);
+
                 device.WriteReport(new HidReport(data.Length, new HidDeviceData(data, HidDeviceData.ReadStatus.Success)));
 
             }
