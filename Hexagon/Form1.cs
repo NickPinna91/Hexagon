@@ -29,12 +29,12 @@ namespace Hexagon
         private int ProductID = 22353;
         */
         //ESP32 PID VID
-        //private int VendorID = 0x303a;
-        //private int ProductID = 0x1001;
+        private int VendorID = 0x303a;
+        private int ProductID = 0x0002;
         //ARDUINO PID VID
         //deviceList = HidDevices.Enumerate(0x2341, 0x8036).ToArray();
-        private int VendorID = 0x2341;
-        private int ProductID = 0x8036;
+        //private int VendorID = 0x2341;
+        //private int ProductID = 0x8036;
 
         private int ReportLength = 64;
         private HidDevice device;
